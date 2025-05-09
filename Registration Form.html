@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Name and Address</legend>
+      <table>
+        <tr>
+          <td>Do you use CiviCRM?</td>
+          <td>
+            <input type="radio" name="civicrm" value="yes"> Yes
+            <input type="radio" name="civicrm" value="no"> No
+            (<a href="#">unselect</a>)
+          </td>
+        </tr>
+        <tr>
+          <td>How long have you been using CiviCRM?</td>
+          <td>
+            <select>
+              <option>-- select --</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Which CMS do you use?</td>
+          <td>
+            <select>
+              <option>-- select --</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Your skill set</td>
+          <td>
+            <select>
+              <option>-- select --</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Email *</td>
+          <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+          <td>First Name *</td>
+          <td><input type="text" name="firstname"></td>
+        </tr>
+        <tr>
+          <td>Last Name *</td>
+          <td><input type="text" name="lastname"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>First and last name will be shared with other visitors to the site.</td>
+        </tr>
+        <tr>
+          <td>Street Address (Home)</td>
+          <td><input type="text" name="street"></td>
+        </tr>
+        <tr>
+          <td>City (Home)</td>
+          <td><input type="text" name="city"></td>
+        </tr>
+        <tr>
+          <td>Postal Code (Home)</td>
+          <td><input type="text" name="postal"></td>
+        </tr>
+        <tr>
+          <td>Country (Home)</td>
+          <td>
+            <select>
+              <option>United States</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Your state/province and country of residence will be shared with others so folks can find others in their community.</td>
+        </tr>
+        <tr>
+          <td>State (Home)</td>
+          <td>
+            <select>
+              <option>-- select --</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <br>
+
+    <!-- Buttons side by side -->
+    <table>
+      <tr>
+        <td><input type="submit" value="Save"></td>
+        <td><input type="button" value="Cancel"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
