@@ -3,8 +3,8 @@
 <head>
   <title>Registration Form</title>
 </head>
-<body>
-  <form>
+<body style="margin: 0; padding: 20px; font-family: Arial, sans-serif;">
+  <form style="max-width: 900px; margin: auto;">
     <fieldset>
       <legend>Name and Address</legend>
       <table>
@@ -13,7 +13,7 @@
           <td>
             <input type="radio" name="civicrm" value="yes"> Yes
             <input type="radio" name="civicrm" value="no"> No
-            (<a href="#">unselect</a>)
+            (<a href="">unselect</a>)
           </td>
         </tr>
         <tr>
@@ -78,7 +78,7 @@
         </tr>
         <tr>
           <td></td>
-          <td>Your state/province and country of residence will be shared with others so folks can find others in their community.</td>
+          <td>Your state/province and country of residence will be shared with others so folks can find others <br>in their community.</td>
         </tr>
         <tr>
           <td>State (Home)</td>
@@ -91,15 +91,11 @@
       </table>
     </fieldset>
 
-    <br>
-
     <!-- Buttons side by side -->
-    <table>
-      <tr>
-        <td><input type="submit" value="Save"></td>
-        <td><input type="button" value="Cancel"></td>
-      </tr>
-    </table>
+    <div style="margin-top: 20px;">
+      <input type="submit" value="Save">
+      <input type="button" value="Cancel">
+    </div>
   </form>
 </body>
 </html>
